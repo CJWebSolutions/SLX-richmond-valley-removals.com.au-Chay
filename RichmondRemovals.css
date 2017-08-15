@@ -1,0 +1,177 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Arial, Helvetica');
+/* Branding Colour*/
+p, h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;}
+.formbuilder-form .row label,h3,h2,h1, hr {
+    color: #013300;}
+p, ul li {
+    color: #222;}
+#services h3 {
+    color:#ffcd04;}
+#services p {
+    color:#fff;}
+div.formbuilder-wrapper label,.formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form:focus, .formbuilder-form input#submit-form:active, .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:focus, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:active, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form.active, .open>.dropdown-toggle.btn, .btn, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, #contact p, #contact h2, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus  {
+    color: #fff;}
+h3,h2,h1, hr, .btn {
+    font-weight: 600;}
+.formbuilder-form .row label, div.formbuilder-wrapper label  {
+    font-weight: 400;}
+#banner1 h1, h2, .btn,h3,.formbuilder-form .row label, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    text-transform: uppercase;}
+#contact p, #contact h2, .contact_detail a, .contact_detail a:hover, .contact_detail a:focus,#header2, #header2a a , #header2b a, .btn ,input#submit-form, #submit-form, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn, .formbuilder-form input#submit-form:hover, .formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form,footer a {
+    text-decoration: none;}
+hr {border: 1px solid #222222;}
+
+/*Buttons*/
+.btn,.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn{
+    transform: scale(1.2);}
+.btn{
+    text-shadow:none;
+    width: 40%;
+    transition: 0.2s 0.2s ease-out;}
+
+.btn {
+    background-color: rgba(255, 205, 4, 0.63);
+    border-radius: 30px;}
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn {
+    background-color: rgb(182, 183, 182);
+    color:#021f08;}
+
+.formbuilder-form input#submit-form, #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form {
+    background-color: #ddd;
+    color:#606060}
+.formbuilder-form input#submit-form:hover,  #extraFormsContainer .modal-dialog .formbuilder-form input#submit-form:hover{
+    background-color: #606060;
+    color:#fff;
+}
+/*Forms*/
+ .form, #contact_form_form, #quote_form_form, #extraFormsContainer .modal-dialog{
+    background: #ffcd04;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17);}
+.formbuilder-form .row input, .formbuilder-form .row select, .formbuilder-form .row textarea{
+    background-color: #fff;}
+
+/*Header*/
+header{
+    border-bottom: 5px solid #ffcd04;
+    padding: 24px 0 0px 0;}
+#header2 {
+    padding-top:0px;
+    padding-bottom:30px}
+#banner h1,#header1 p, #header2a, #header2a a, #header2a:before, #header2a:before, #header2b a {
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.7);
+    color: #ffffff;}
+#header2a,#header2a a {
+    font-size: 40px;}
+#header2a:before {
+    content: '\f098';
+    font-size:35px;
+    padding-right:10px}
+#header2b a{
+    font-size:18.8px;}
+#header1 strong {
+    font-weight: 600;
+    font-size: 40px;}
+#header1 p{
+    font-size: 35px;
+    line-height: 10px;}
+    
+/*Banner*/
+#banner1 h1, #banner1 p {
+    color: #fff;}
+#banner1 p {    
+    font-size:25px;}
+#banner {}
+#banner1 h1 {
+    font-weight: 600;}
+.banner_cover {
+    opacity: 1.4;
+    background-color: rgba(67, 67, 66, 0.59);}
+#banner1 {
+    animation:move 2s ease;}
+@-webkit-keyframes move {from {transform: scale(0.8);opacity:0;} to {transform: scale(1.0);opacity:1;}}
+
+
+/*Services & Content*/
+#service1,#service2,#service3,#service4{
+    transition: 0.2s 0.2s ease-out;}
+#service1:hover,#service2:hover,#service3:hover,#service4:hover{
+    transform: scale(1.2);}
+#content img{
+    border: 7px solid #fff;}
+
+/*Gallery*/
+#gallery img, #content img {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;}
+#gallery1 p, #gallery, #gallery .container {
+    padding: 0;
+    margin-bottom :0;}
+#gallery1, #gallery p > img, #gallery p > a, #gallery p.gallery1 > a, #gallery p.gallery1 > img {
+    -webkit-box-flex: 0 0 100%;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding:0;}
+ @media only screen and (min-width: 767px){
+    #gallery p > img, #gallery p > a, #gallery p.gallery1 > a, #gallery p.gallery1 > img {
+        -webkit-box-flex: 0 0 33.333%;
+        -webkit-flex: 0 0 33.333%;
+        -ms-flex: 0 0 33.333%;
+        flex:  0 0 33.333%;
+        max-width: 33.333%;
+        margin-bottom: 0px;}
+}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    #gallery p img, #gallery p.gallery3 img, #gallery p.gallery4 img, #gallery p.gallery5 img, #gallery p.gallery6 img {
+        -webkit-box-flex: 0 1 100%;
+        -webkit-flex: 0 1 100%;
+        -ms-flex: 0 1 100%;
+        flex: 0 1 100%;
+        max-width: 100%;}
+    #gallery img {
+        width: 95%}
+}
+#gallery img:hover, #content img:hover {opacity: 0.3;}
+#gallery{box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);}
+#gallery img ,#gallery1 p, #gallery, #gallery .container, #gallery img, #content img{width:100%;}
+#gallery .row, #gallery1, #gallery p > img, #gallery p > a, #gallery p.gallery1 > a, #gallery p.gallery1 > img {margin: 0;}
+
+
+/*Contact*/
+#contact1b, #contact2g,#contact2f,#contact2e,#contact2d,#contact2c, #content2b {display: none;}
+
+/*Footer*/
+footer, footer a, footer * {color: #222;}
+footer {
+    background-color: #fff;
+    border-top: 5px solid #ffcd04;
+    padding: 25px 0 25px;}
+
+/*Media Queries*/
+@media only screen and (max-width: 1197px) and (min-width: 0px)  {
+    #header1 p{
+    line-height:45px;}}
+@media only screen and (max-width: 767px) and (min-width: 0px)  {
+    #banner1, #banner1 h1 {text-align:center;}
+    #header2b {line-height: 18px;}
+    #header2 {padding-bottom: 0px;}  
+    #header {padding: 30px 0 30px 0;}
+    #service1:hover,#service2:hover,#service3:hover,#service4:hover{transform: scale(1.0);}
+}
+@media only screen and (max-width: 690px) and (min-width: 441px) {#banner h1 {font-size: 50px;}}
+@media (max-width: 440px) {
+    #header{padding-top:25px}
+    #banner h1 {font-size: 40px;}
+}
+@media (max-width: 710px) {.btn{width:100%;word-wrap: break-word;}}
+@media (min-width: 0px) {.btn {margin-top: 10px;}}
+@media (max-width: 767px) {#service3 {clear:left }}  
